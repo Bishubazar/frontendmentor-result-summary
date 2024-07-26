@@ -6,7 +6,7 @@ const Button = ({ title, href = "/", buttonStyle }) => {
         <a
             href={href}
             className={twMerge(
-                "p-4 ont-medium text-center text-white bg-blue-gradient rounded-full  hover:from-neutral-dark hover:to-neutral-dark",
+                "p-4 font-medium text-center text-white hover:bg-blue-gradient rounded-full  bg-neutral-dark",
                 buttonStyle
             )}
         >

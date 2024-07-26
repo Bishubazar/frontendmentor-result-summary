@@ -20,6 +20,9 @@ export default {
                     dark: "hsl(224, 30%, 27%)",
                 },
             },
+            backgroundOpacity: {
+                7: "0.7",
+            },
         },
     },
 
