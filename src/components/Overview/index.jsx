@@ -1,8 +1,5 @@
 import React from "react";
-import SummaryItem from "./Summary/SummaryItem";
 import { overview_data } from "../../constants";
-import { twMerge } from "tailwind-merge";
-
 import Result from "./Result";
 import Summary from "./Summary";
 

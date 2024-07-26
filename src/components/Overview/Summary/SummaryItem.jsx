@@ -1,11 +1,11 @@
 import React from "react";
 import { twMerge } from "tailwind-merge";
 
-const SummaryItem = ({ style, data, ...props }) => {
+const SummaryItem = ({ itemStyle, data, ...props }) => {
     return (
         <div
             className={twMerge(
-                style,
+                itemStyle,
                 "flex items-center rounded-xl justify-between p-4 sm:max-w-72 w-full"
             )}
             {...props}

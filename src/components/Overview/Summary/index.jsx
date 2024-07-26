@@ -13,7 +13,7 @@ const Summary = ({ data }) => {
                         <SummaryItem
                             key={key}
                             data={el}
-                            style={twMerge(el.style, "bg-opacity-10")}
+                            itemStyle={twMerge(el.style, "bg-opacity-10")}
                         />
                     );
                 })}
